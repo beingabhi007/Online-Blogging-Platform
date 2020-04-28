@@ -1,0 +1,99 @@
+body 
+{
+   background-color: black;
+} 
+.row 
+{
+   margin-left: 0; 
+   margin-right: 0;
+}
+.text1 
+{
+   color: white; 
+   font-weight: 700; 
+   font-size: 2em; 
+   text-align: center;
+} 
+
+
+
+
+@media only screen and (min-width: 992px) 
+{
+   .bg1 
+   {
+      width: 900px; 
+      height: 570px; 
+      margin-left: -20px;
+   } 
+   .text2 
+   {
+      color: white; 
+      font-weight: 800; 
+      font-size: 3.5em; 
+      margin-top: 10px; 
+      font-family: 'Roboto', sans-serif;
+   } 
+   .text3 
+   {
+      color: #ffffff; 
+      font-size: 3.5em; 
+      font-weight: 800; 
+      font-family: 'Roboto', sans-serif;
+   } 
+   .text4 
+   {
+      color: white; 
+      font-size: 3.5em; 
+      font-weight: 800;  
+      font-family: 'Roboto', sans-serif;
+      
+   } 
+   .text5
+   {
+      color: white; 
+      font-size: 3.5em; 
+      font-weight: 800; 
+      font-family: 'Roboto', sans-serif;
+   } 
+   #but1 
+   {
+      width: 100%; 
+      margin-top: 30px;
+   }
+} 
+
+@media only screen and (max-width: 600px) 
+{
+
+   .text2 {
+
+      color: white; 
+      margin-top: 10px;   
+      font-size: 1.7em;
+      font-weight: 800; 
+      font-family: 'Roboto', sans-serif; 
+      text-align: center; 
+      align-items: center;
+   }  
+   .text3 , .text4 , .text5 
+   {
+      color: white; 
+      font-size: 1.5em; 
+      font-weight: 800; 
+      font-family: 'Roboto', sans-serif;
+      text-align: center; 
+      align-items: center;
+   }
+   .bg1 
+   {
+      height: 40vh; 
+      width: 100%;
+   } 
+   #but1 
+   {
+      width: 100%;  
+      margin-top: 10px;
+      
+   }
+}

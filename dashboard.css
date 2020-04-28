@@ -1,0 +1,36 @@
+.row 
+{
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+.text1 
+{
+    text-align: center; 
+    font-weight: 800; 
+    font-size: 2em;
+} 
+.text2
+{
+   color: tomato; 
+   text-align: center; 
+   font-weight: 800; 
+   font-size: 1.5em; 
+} 
+.text3 
+{
+   color: teal; 
+   text-align: center; 
+   font-weight: 600; 
+   font-size: 1.3em; 
+   margin-top: 35px;
+} 
+.card 
+{
+    margin-top: 10px;
+}
+.nav-link 
+{
+    color: tomato !important; 
+    font-size: 1em; 
+    font-weight: 600;
+}

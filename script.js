@@ -1,0 +1,1 @@
+alert("Email is already registered with us");

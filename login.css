@@ -1,0 +1,50 @@
+body 
+{
+    background-color: black;
+}  
+
+@media only screen and (min-width: 900px) 
+{
+    .text1 
+    {
+        color: white !important; 
+        font-weight: 800; 
+        font-size: 1.7em; 
+        text-align: center; 
+    } 
+    .card 
+    {
+        width: 50%;
+    } 
+    input 
+    {
+        width: 97%;
+    } 
+    div.card 
+    {
+        margin: 0 auto;
+        margin-top: 100px;
+    } 
+    .text2 
+  {
+     font-size: 1.5em; 
+     font-weight: 800;
+  }
+} 
+
+@media only screen and (max-width: 662px) 
+{
+     input 
+     {
+         width: 95%; 
+
+     } 
+     .text1 
+     {
+         color: white; 
+         font-size: 2em; 
+         font-weight: 800; 
+         text-align: center;
+     } 
+     
+}

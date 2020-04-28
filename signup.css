@@ -1,0 +1,73 @@
+body 
+{
+   background-color: black;
+} 
+.row 
+{
+   margin-left: 0; 
+   margin-right: 0;
+}
+
+
+
+
+@media only screen and (min-width: 992px) 
+{
+   .text1 
+   {
+      color: white;
+      font-weight: 700; 
+      font-size: 1.5em; 
+      text-align: center;
+   } 
+ 
+   .card {
+      width: 50%; 
+      height: 280px; 
+  }  
+  #in1 , #in2 , #in3 , #in4 , #in5 , #in6
+  {
+     width: 48%;
+  } 
+  .text2 
+  {
+     font-size: 1.5em; 
+     font-weight: 800;
+  } 
+  div.card 
+  {
+     margin: 0 auto;
+     margin-top: 100px;
+  }
+} 
+
+
+@media only screen and (max-width: 600px) 
+{
+    .card 
+    {
+       height: 470px; 
+       width: 100%;
+    } 
+    .text1 
+   {
+      color: white;
+      font-weight: 700; 
+      font-size: 2em; 
+      text-align: center;
+   } 
+   input 
+   {
+      width: 95%; 
+      margin-top: 10px; 
+      
+   } 
+   .text2 
+   {
+      font-size: 1.5em;
+   } 
+   #text3 
+   {
+      margin-top: 5px;
+   }
+}

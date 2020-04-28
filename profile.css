@@ -1,0 +1,51 @@
+
+@media only screen and (min-width: 900px) 
+{
+  
+  div.bg1 
+  {
+    height: 59vh;  
+    background-image: url('banner5.png'); 
+      background-repeat: no-repeat;
+  }
+    
+  div.card
+  {
+      margin: 0 auto;
+      margin-top: 0px; 
+  } 
+  .text1 
+  {
+      text-align: center; 
+      font-weight: 700; 
+      font-size: 3em;
+  }  
+  
+} 
+
+@media only screen and (max-width: 662px) 
+{
+    div.bg1 
+  {
+    height: 60vh;  
+    background-image: url('banner5.png'); 
+    background-repeat: no-repeat;
+  }
+    .img1 
+    {
+        height: 20vh; 
+        width: 100%;
+    } 
+    div.card 
+    {
+        margin: 0 auto;
+        margin-top: 20px;
+    } 
+    .text1 
+  {
+      text-align: center; 
+      font-weight: 700; 
+      font-size: 2em;
+  } 
+
+}

@@ -1,0 +1,59 @@
+div.card 
+{
+  width: 80%;
+}
+@media only screen and (min-width: 900px) 
+{
+    div.bg1 
+  {
+    height: 25vh;  
+    background-image: url('banner5.png'); 
+      background-repeat: no-repeat;
+  } 
+  .text1 
+  {
+      color: white; 
+      text-align: center; 
+      font-size: 3em; 
+      font-weight: 800; 
+      margin-top: -20px;
+  } 
+  div.card 
+  {
+    margin: 0 auto;
+  } 
+  div p.ml-2.mt-4.cont
+  {
+    font-family: cursive; 
+    font-size: larger; 
+    color: tomato;
+  } 
+  #text3 
+  {
+    font-weight: 500; 
+  }
+} 
+
+@media only screen and (max-width: 662px) 
+{
+    div.bg1 
+    {
+      height: 22vh;  
+      background-image: url('banner5.png'); 
+        background-repeat: no-repeat;
+    } 
+    .text1 
+  {
+      color: white; 
+      text-align: center; 
+      font-size: 2em;
+  }  
+  #text2 
+  {
+    color: tomato;
+  }
+  div.card 
+  {
+    margin: 0 auto;
+  }
+}
